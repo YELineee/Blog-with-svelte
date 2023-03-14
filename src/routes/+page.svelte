@@ -1,23 +1,11 @@
-<div class="navbar bg-base-100 px-1">
-  <div class="dropdown dropdown-hover">
-    <label class="btn btn-ghost swap swap-rotate">
-  
-      <!-- this hidden checkbox controls the state -->
-      <input type="checkbox" />
-      
-      <!-- hamburger icon -->
-      <svg class="swap-off fill-current" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512"><path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z"/></svg>
-      
-      <!-- close icon -->
-      <svg class="swap-on fill-current" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512"><polygon points="400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49"/></svg>
-      
-    </label>
-    <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
-      <li><a>Item 1</a></li>
-      <li><a>Item 2</a></li>
-    </ul>
-  </div>
+<script>
+  import { concurrent} from 'svelte-typewriter'
+  import Typewriter from 'svelte-typewriter'
+</script>
+
+<div class="navbar bg-base-100">
   <div class="flex-1">
+    <a class="btn btn-ghost normal-case text-xl"></a>
   </div>
   <div class="flex-none">
     <button class="btn btn-square btn-ghost">
@@ -25,26 +13,58 @@
     </button>
   </div>
 </div>
-<!--                               -----NAVBER-----                                         -->
 
-<!--                               -----TEXTBAR-----                                         -->
-
-
-<div class="container w-10/12 mx-auto">
-  <p class="font-mono font-dynamic-p-titl  font-black">YEL!ne</p>
-  <p class="font-mono  font-dynamic-p-text  overflow-clip">yeline is my frinnsds sdsds dsdsd dsd ssdsdsd sdsdds sdredsf sdsd </p>
-</div>
-<!--                               -----TEXTBAR-----                                         -->
-<div class="flex flex-wrap">
+  <div class="drawer fixed  top-4 z-10">
+    <input id="my-drawer" type="checkbox" class="drawer-toggle" />
+    <div class="drawer-content">
+      <!-- Page content here -->
+     
+      <label for="my-drawer"class="btn btn-square btn-ghost swap swap-rotate ml-4">
   
+        <!-- this hidden checkbox controls the state -->
+        <input type="checkbox" />
+        
+        <!-- hamburger icon -->
+        <svg class="swap-off fill-current" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512"><path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z"/></svg>
+        
+        <!-- close icon -->
+        <svg class="swap-on fill-current" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512"><polygon points="400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49"/></svg>
+        
+      </label>
+    </div> 
+    <div class="drawer-side">
+      <label for="my-drawer" class="drawer-overlay brawer-end"></label>
+      <ul class="menu p-4 w-11/12 bg-base-100 text-base-content">
+        <!-- Sidebar content here -->
+        <li><a>Sidebar Item 1</a></li>
+        <li><a>Sidebar Item 2</a></li>
+        
+      </ul>
+    </div>
+  </div>
+  <!--                               -----NAVBER-----                                         -->
+
+
+
+
+  <!--                               -----TEXTBAR-----                                         -->
+
+  <div class="container w-10/12 h-4/6 mx-auto z-0">
+      <p use:concurrent={{ interval:50}} class=" font-dynamic-p-titl  font-black ">YEL!ne</p>
+      <p use:concurrent={{ interval:110}} class=" font-dynamic-p-text  font-thin ml-4 overflow-clip">yeline is my frinnsds sdsds dsdsd dsd ssdsdsd sdsdds sdredsf sdsd </p>
+    
+  </div>
+  <!--                               -----TEXTBAR-----                                         -->
+  
+
+
+
+
+
+
+<div class="flex flex-wrap">
+    
 </div>
-
-
-
-
-
-
-
 
 
 
@@ -69,13 +89,45 @@
     </div>
   </div>
 </footer>
+
+
+
 <style>
+
+  /* font */
   .font-dynamic-p-titl{
     font-size: 8vw;
   }
   .font-dynamic-p-text{
     font-size: 4vw;
   }
+  /* font */
+
+
+
+  /* animation */
+  .anim-typing-p{
+    animation: write 4s steps(14) forwards,blink 0.5s steps(1) infinite;
+  }
+
+  @keyframes write {
+    0% {
+      width: 0;
+    }
+
+    100% {
+      width: 280px;
+    }
+  }
+
+  @keyframes blink {
+    50% {
+      /* transparent是全透明黑色(black)的速记法，即一个类似rgba(0,0,0,0)这样的值。 */
+      border-color: transparent; /* #00000000 */
+    }
+  }
+  /* animation */
+
 </style>
 
 
