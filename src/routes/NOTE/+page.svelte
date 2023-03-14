@@ -1,5 +1,5 @@
 <script>
-    import { concurrent , scramble, cascade} from 'svelte-typewriter'
+   import Typewriter from 'svelte-typewriter'
     //tyoewriter 
   
     // Googlefonts
@@ -29,9 +29,9 @@
   <!--                               -----TEXBAR-----                                         -->
   
   <div class="container w-10/12 h-4/6 mx-auto  pt-10  overflow-hidden ">
-      
-    <div  use:scramble={{scrambleDuration:3000,scrambleSlowdown:true}}>
-        <p  use:scramble={{scrambleDuration:2000,scrambleSlowdown:true}} class=" font-dynamic-p-titl  font-black  "> 
+    <Typewriter>
+    
+        <p class=" font-dynamic-p-titl  font-black  "> 
             
             <a class="link link-hover line-through text-yellow-400">
                 
@@ -43,7 +43,7 @@
         
         <p  class="font-dynamic-p-text  font-medium ml-8 mt-8 overflow-clip ">&nbsp; &nbsp;This is a brief description of my website, which every time I open it, the title is never the right word, just <a href="../" class="link link-hover text-red-400">like myself</a> , wrong and crazy, often misspelling words.</p>
         <p  class="font-dynamic-p-text  font-medium ml-8 mt-8 overflow-clip ">&nbsp; &nbsp;It perhaps the first time I have been alone to write a project that has been in my mind a million times, but today I started to produce it.</p>
-    </div>
+    </Typewriter>
   </div>
   
   

@@ -1,5 +1,5 @@
 <script>
-    import { concurrent , scramble, cascade} from 'svelte-typewriter'
+    import Typewriter from 'svelte-typewriter'
     //tyoewriter 
   
     // Googlefonts
@@ -30,10 +30,11 @@
   
   <div class="container w-10/12 h-4/6 mx-auto  pt-10  overflow-hidden ">
       
-    <div  use:scramble={{scrambleDuration:3000,scrambleSlowdown:true}}>
-        <p  use:scramble={{scrambleDuration:2000,scrambleSlowdown:true}} class=" font-dynamic-p-titl  font-black  "> <a href="https://github.com/YELineee" class="link link-hover  text-yellow-400">Coming soon</a></p>  
+    <Typewriter>
+      
+        <p  class=" font-dynamic-p-titl  font-black  "> <a href="https://github.com/YELineee" class="link link-hover  text-yellow-400">Coming soon</a></p>  
         
-    </div>
+    </Typewriter>
   </div>
   
   
