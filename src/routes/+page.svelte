@@ -60,6 +60,7 @@
   }
   .font-dynamic-p-text{
     font-size: 4vw;
+    min-font-size: 40px;
   }
 
   :global(body) {
