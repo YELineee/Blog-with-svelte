@@ -41,8 +41,8 @@
         
         </p>  
         
-        <p  class="font-dynamic-p-text  font-medium ml-8 mt-8 overflow-clip ">&nbsp; &nbsp;This is a brief description of my website, which every time I open it, the title is never the right word, just <a href="../" class="link link-hover text-red-400">like myself</a> , wrong and crazy, often misspelling words.</p>
-        <p  class="font-dynamic-p-text  font-medium ml-8 mt-8 overflow-clip ">&nbsp; &nbsp;It perhaps the first time I have been alone to write a project that has been in my mind a million times, but today I started to produce it.</p>
+        <p  class="font-dynamic-p-text  font-medium ml-8 mt-8 overflow-clip ">&nbsp; &nbsp;This is my first blog site and the concept is simple, there is nothing central to the whole site, as well as no iconic buttons and not a clear timeline. Just like <a href="../" class="link link-hover text-yellow-400">myself</a>, I like things to be pure.</p>
+        <p  class="font-dynamic-p-text  font-medium ml-8 mt-8 overflow-clip ">&nbsp; &nbsp;It perhaps the first time I have been alone to write a <a href="https://github.com/YELineee/Blog" class="link link-hover text-red-400">project</a> that has been in my mind a million times, but today I started to produce it.</p>
     </Typewriter>
   </div>
   

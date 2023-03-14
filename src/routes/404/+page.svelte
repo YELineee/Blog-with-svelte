@@ -32,7 +32,8 @@
       
     <Typewriter>
       
-        <p  class=" font-dynamic-p-titl  font-black  "> <a href="https://github.com/YELineee" class="link link-hover  text-yellow-400">Coming soon</a></p>  
+        <p  class=" font-dynamic-p-titl  font-black  "> <a href="../" class="link link-hover  text-yellow-400">Coming soon</a></p>
+        <p  class="font-dynamic-p-text  font-medium ml-8 mt-8 overflow-clip ">This feature is still in production, it is a simple theme colour change function, because of some irresistible reasons, my code has a little situation, wait for some time to be skilled to do</p>
         
     </Typewriter>
   </div>
