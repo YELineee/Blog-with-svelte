@@ -36,7 +36,7 @@
   
 
 
-<div data-theme="{$itheme ? "dark" : "light"}">
+<html data-theme="{$itheme ? "dark" : "light"}" class=" h-screen w-screen">
   <div class="container w-10/12 h-4/6 mx-auto  pt-6  overflow-hidden ">
     <!--                               -----TEXBAR-----                                         -->
     <div >
@@ -53,7 +53,7 @@
 
   </div>
 
-</div>
+</html>
   <!--                               -----TEXBAR-----                                         -->
     
   

@@ -11,7 +11,7 @@
   });
 
 
-  // Googlefonts
+ 
 
   // Iterm
 
@@ -21,6 +21,7 @@
   function toggleDark() {
     itheme.update(d => !d);
   }
+
 
   function toggleMode() {
     if ($itheme) {
@@ -38,7 +39,7 @@
 
 
 <!--                               -----TEXBAR-----                                         -->
-<div data-theme="{$itheme ? "dark" : "light"}">
+<div data-theme="{$itheme ? "dark" : "light"}" class=" h-screen w-screen" >
 
 
   <div class="container w-10/12 h-4/6 mx-auto  pt-6  overflow-hidden ">
@@ -68,7 +69,9 @@
 
 
 <style>
-
+  /* *{
+    background-color: aqua;
+  } */
   /* font */
   .font-dynamic-p-titl{
     font-size: 10vw;
