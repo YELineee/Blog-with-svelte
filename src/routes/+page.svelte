@@ -2,7 +2,7 @@
   import Typewriter from 'svelte-typewriter'
   import { onMount } from 'svelte';
   import { loadGoogleFont} from '../JsPlugin/loadGoogleFont';
-  import { ithem } from '../JsPlugin/ThemeSwitching'
+  import { itheme } from '../JsPlugin/ThemeSwitching'
 
 
   onMount(() => {
@@ -11,7 +11,7 @@
   });
 
 
-  // Googlefonts
+ 
 
   // Iterm
 
@@ -19,16 +19,16 @@
   let mode = '';
  
   function toggleDark() {
-    ithem.update(d => !d);
+    itheme.update(d => !d);
   }
 
+
   function toggleMode() {
-    isOn = !isOn;
-    if (isOn) {
-      mode = '&quot; turn on the light &quot;';
+    if ($itheme) {
+      mode = '&quot; turn off the light &quot;';
       toggleDark();
     } else {
-      mode = '&quot; turn off the light &quot;';
+      mode = '&quot; turn on the light &quot;';
       toggleDark();
     }
   }
@@ -39,7 +39,7 @@
 
 
 <!--                               -----TEXBAR-----                                         -->
-<div data-theme="{$ithem ? "dark" : "light"}">
+<div data-theme="{$itheme ? "dark" : "light"}">
 
 
   <div class="container w-10/12 h-4/6 mx-auto  pt-6  overflow-hidden ">
