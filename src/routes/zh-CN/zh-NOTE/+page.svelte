@@ -1,22 +1,12 @@
 <script>
-    import Typewriter from 'svelte-typewriter'
-     //tyoewriter 
-   
-     // Googlefonts
-   
-     import { onMount } from 'svelte';
-   
-     onMount(() => {
-       const link = document.createElement('link');
-       link.rel = 'stylesheet';
-       link.href = 'https://fonts.googleapis.com/css2?family=Courgette&display=swap';
-       document.head.appendChild(link);
-     });
-   
-   
-     // Googlefonts
-   
-     // Iterm
+  import Typewriter from 'svelte-typewriter'
+  import { onMount } from 'svelte';
+  import { loadGoogleFont} from '../../../JsPlugin/loadGoogleFont';
+
+
+  onMount(() => {
+    loadGoogleFont();
+  });
    
      let mode ="&quot; turn on the light &quot;"
    
