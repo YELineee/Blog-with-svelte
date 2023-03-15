@@ -40,7 +40,7 @@
             {mode}
           </a> 
         
-        for you my friend?
+        for you my friend? Or Switch to <a href="./zh-CN" class="link link-hover text-amber-400"> Chinese </a>?
       </p>
       
     </Typewriter>
@@ -59,7 +59,7 @@
 
   /* font */
   .font-dynamic-p-titl{
-    font-size: 6vw;
+    font-size: 8vw;
   }
   .font-dynamic-p-text{
     font-size: 4vw;
