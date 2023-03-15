@@ -1,16 +1,21 @@
 <script>
   import Typewriter from 'svelte-typewriter'
   import { onMount } from 'svelte';
-  import { loadGoogleFont} from '../JsPlugin/loadGoogleFont';
+  import { loadGoogleFont} from '../../JsPlugin/loadGoogleFont';
 
 
   onMount(() => {
     loadGoogleFont();
   });
 
-  
+
+  // Googlefonts
+
+  // Iterm
+
   let mode ="&quot; turn on the light &quot;"
 
+  //Iterm
 
  
 </script>

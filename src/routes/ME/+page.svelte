@@ -1,20 +1,12 @@
 <script>
-    import Typewriter from 'svelte-typewriter'
-    //tyoewriter 
-  
-    // Googlefonts
-  
-    import { onMount } from 'svelte';
-  
-    onMount(() => {
-      const link = document.createElement('link');
-      link.rel = 'stylesheet';
-      link.href = 'https://fonts.googleapis.com/css2?family=Courgette&display=swap';
-      document.head.appendChild(link);
-    });
-  
-  
-    // Googlefonts
+  import Typewriter from 'svelte-typewriter'
+  import { onMount } from 'svelte';
+  import { loadGoogleFont} from '../../JsPlugin/loadGoogleFont';
+
+
+  onMount(() => {
+    loadGoogleFont();
+  });
   
     // Iterm
   
@@ -32,8 +24,9 @@
       
     <div >
       <Typewriter>
-        <p   class=" font-dynamic-p-titl  font-black  "> <a href="../" class="link link-hover  text-yellow-400">Me, Myslef & I</a></p>  
-        <p  class="font-dynamic-p-text  font-medium ml-8 mt-8 overflow-clip ">&nbsp; &nbsp; As previously mentioned, I am that manner. A 20-year-old kid who is obsessed with the future every day, because we don't know what it will look like. </p>
+        <p  class=" font-dynamic-p-titl  font-black  "> <a href="../" class="link link-hover  text-yellow-400">Me, Myslef & I</a></p>  
+        <p  class="font-dynamic-p-text  font-medium ml-8 mt-8 overflow-clip ">&nbsp; &nbsp; This is my first blog site, and the idea is straightforward; the site lacks any focal point, recognizable icons, or chronology. <a href="../" class="link link-hover text-violet-400">I'm </a> a purist at heart, just like everything else. </p>
+        <p  class="font-dynamic-p-text  font-medium ml-8 mt-8 overflow-clip ">&nbsp; &nbsp; Perhaps for the first time, I began writing a <a href="https://github.com/YELineee/Blog" class="link link-hover text-red-400">project</a>  today that has been on my thoughts for a very long time while I was by myself.</p>
         
         
       </Typewriter>
