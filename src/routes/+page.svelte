@@ -5,6 +5,7 @@
   // Googlefonts
 
   import { onMount } from 'svelte';
+  import { comment } from 'postcss';
 
   onMount(() => {
     const link = document.createElement('link');
@@ -33,7 +34,7 @@
   <div >
     <Typewriter>
       <p   class=" font-dynamic-p-titl  font-black  "> <a href="https://github.com/YELineee" class="link link-hover line-through text-yellow-400">YEL!ne</a></p>  
-      <p  class="font-dynamic-p-text  font-medium ml-8 mt-8 overflow-clip ">&nbsp; &nbsp; Everyone thought he was a bit <a href="https://github.com/YELineee/OUT_OT_LUNCH" class="link link-hover text-blue-400"> " Out To Lunch "</a> . He  have left some <a href="./NOTE" class="link link-hover text-indigo-400">" Notes "</a> , it seems he doesn't have a very good memory, BTW , his name is <a href="https://github.com/YELineee" class="link link-hover text-green-400"> YELine</a>.</p>
+      <p  class="font-dynamic-p-text  font-medium ml-8 mt-8 overflow-clip ">&nbsp; &nbsp; Everyone thought he was a bit <a href="https://github.com/YELineee/OUT_OT_LUNCH" class="link link-hover text-blue-400"> " Out To Lunch "</a> . He  has left some <a href="./NOTE" class="link link-hover text-indigo-400">" Notes "</a> , it seems he doesn't have a very good memory, BTW , his name is <a href="./ME" class="link link-hover text-green-400"> YELine</a>.</p>
       <p  class="font-dynamic-p-text  font-medium ml-8 mt-4 overflow-clip"> &nbsp; &nbsp; Do you need me to 
           <a href="./404" class="link link-hover  text-red-400">
             {mode}
@@ -41,10 +42,12 @@
         
         for you my friend?
       </p>
+      
     </Typewriter>
   </div>
 
 </div>
+
 
 
 
