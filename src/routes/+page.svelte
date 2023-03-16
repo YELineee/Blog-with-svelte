@@ -10,12 +10,9 @@
     toggleNow();
   });
 
+  // onMount
 
- 
-
-  // Iterm
-
-
+  // SWitchTheme
   let mode = '';
  
   function toggleDark() {
@@ -40,13 +37,14 @@
       toggleDark();
     }
   }
-  //Iterm
+  // SWitchTheme
 
  
 </script>
 
 
 <!--                               -----TEXBAR-----                                         -->
+
 
 <div data-theme="{$itheme ? "dark" : "light"}" class=" h-screen w-screen">
 
@@ -64,24 +62,19 @@
           for you? Or Switch to 
           <a href="./zh-CN" class="link link-hover text-amber-400"> Chinese </a>?
         </p>
-
-      
       <p   class="font-dynamic-p-text "></p>
         
       </Typewriter>
-    
 
   </div>
 </div>
+
+
 <!--                               -----TEXBAR-----                                         -->
   
 
 
 <style>
-  /* *{
-    background-color: aqua;
-  } */
-  /* font */
   .font-dynamic-p-titl{
     font-size: 10vw;
   }
@@ -94,7 +87,6 @@
     font-family: 'Courgette', cursive;
   }
 
-  /* font */
 </style>
 
 
