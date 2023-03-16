@@ -59,7 +59,8 @@
             么？或者切换到 
             <a href="../" class="link link-hover text-amber-400"> " 英文 "</a>?
           </p>
-
+  
+        
         <p   class="font-dynamic-p-text "></p>
           
         </Typewriter>
