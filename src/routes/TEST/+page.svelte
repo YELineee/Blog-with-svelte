@@ -53,7 +53,7 @@
               {mode}
             </a> 
           
-          for you? Or Switch to <a href="./zh-CN" class="link link-hover text-amber-400"> Chinese </a>?
+          for you? Or Switch to <a href="../" class="link link-hover text-amber-400"> Chinese </a>?
         </p>
 
       

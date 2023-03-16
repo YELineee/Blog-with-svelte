@@ -7,7 +7,7 @@
 
   onMount(() => {
     loadGoogleFont();
-    toggleMode();
+    toggleNow();
   });
 
 
@@ -15,13 +15,21 @@
 
   // Iterm
 
-  let isOn = false;
+
   let mode = '';
  
   function toggleDark() {
     itheme.update(d => !d);
   }
 
+  function toggleNow(){
+    if ($itheme) {
+      mode = '&quot; turn on the light &quot;';
+    } else {
+      mode = '&quot; turn off the light &quot;';
+    }
+
+  }
 
   function toggleMode() {
     if ($itheme) {
@@ -39,12 +47,12 @@
 
 
 <!--                               -----TEXBAR-----                                         -->
-<div data-theme="{$itheme ? "dark" : "light"}" class=" h-screen w-screen">
 
+<div data-theme="{$itheme ? "dark" : "light"}" class=" h-screen w-screen">
 
   <div class="container w-10/12 h-4/6 mx-auto  pt-6  overflow-hidden ">
       
-    <div >
+    
       <Typewriter>
         <p  class="font-dynamic-p-titl  font-black  "> <a href="./ME" class="link link-hover line-through text-yellow-400">YEL!ne</a></p>  
         <p  class="font-dynamic-p-text  font-medium ml-8 mt-8 overflow-clip ">&nbsp; &nbsp; Everyone thought he was a bit <a href="https://github.com/YELineee/OUT_OT_LUNCH" class="link link-hover text-blue-400"> " Out To Lunch "</a> . He  has left some <a href="./NOTE" class="link link-hover text-indigo-400">" Notes "</a> , it seems he doesn't have a very good memory, BTW , his name is <a href="./ME" class="link link-hover text-green-400"> YELine</a>.</p>
@@ -53,14 +61,15 @@
               {mode}
             </a> 
           
-          for you? Or Switch to <a href="./zh-CN" class="link link-hover text-amber-400"> Chinese </a>?
+          for you? Or Switch to 
+          <a href="./zh-CN" class="link link-hover text-amber-400"> Chinese </a>?
         </p>
 
       
       <p   class="font-dynamic-p-text "></p>
         
       </Typewriter>
-    </div>
+    
 
   </div>
 </div>
