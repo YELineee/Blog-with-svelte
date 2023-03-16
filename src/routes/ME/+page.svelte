@@ -24,10 +24,8 @@
     <div >
       <Typewriter>
         <p  class=" font-dynamic-p-titl  font-black  "> <a href="../" class="link link-hover  text-yellow-400">Me, Myslef & I</a></p>  
-        <p  class="font-dynamic-p-text  font-medium ml-8 mt-8 overflow-clip ">&nbsp; &nbsp; This is my first blog site, and the idea is straightforward; the site lacks any focal point, recognizable icons, or chronology. <a href="../" class="link link-hover text-violet-400">I'm </a> a purist at heart, just like everything else. </p>
-        <p  class="font-dynamic-p-text  font-medium ml-8 mt-8 overflow-clip ">&nbsp; &nbsp; Perhaps for the first time, I began writing a <a href="https://github.com/YELineee/Blog" class="link link-hover text-red-400">project</a>  today that has been on my thoughts for a very long time while I was by myself.</p>
-        
-        
+        <p  class="font-dynamic-p-text  font-medium ml-8 mt-8 overflow-clip ">&nbsp; &nbsp; What exactly am I? As I previously stated, I am just a 21-year-old student concerned about the future. I'm not sure how to describe myself. Maybe every time you visit this website, you get to know me and think, so he's <a href="../" class="link link-hover text-yellow-400">"YELine"</a> .</p>
+
       </Typewriter>
     </div>
   

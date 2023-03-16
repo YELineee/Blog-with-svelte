@@ -23,8 +23,7 @@
       <div >
         <Typewriter>
           <p  class=" font-dynamic-p-titl  font-black  "> <a href="../" class="link link-hover  text-yellow-400">Me, Myslef & I</a></p>  
-          <p  class="font-dynamic-p-text  font-medium ml-8 mt-8 overflow-clip ">&nbsp; &nbsp;这是我的第一次独立的写一个blog，我的想法很简单，去中心化，去图表化，去时间化。就像是<a href="../" class="link link-hover text-violet-400">“ 我 ”</a>一样，喜欢纯粹的东西</p>
-          <p  class="font-dynamic-p-text  font-medium ml-8 mt-8 overflow-clip ">&nbsp; &nbsp;可能这个<a href="https://github.com/YELineee/Blog" class="link link-hover text-red-400">“ 项目 ”</a>是我第一次一个人去尝试的，而且已经在我的脑海里纯在有很长的一段时间了</p>
+          <p  class="font-dynamic-p-text  font-medium ml-8 mt-8 overflow-clip ">&nbsp; &nbsp;我是谁？真如前面的所说，只不过是一个对未来而感到发愁的21岁孩子罢了。我似乎不知道该怎么介绍自己。也许在你浏览这个网站的每一刻，你突然了解了我，也许你会想，原来这就是<a href="../zh-CN" class="link link-hover text-yellow-400">“他”</a> 。</p>
         </Typewriter>
       </div>
     
