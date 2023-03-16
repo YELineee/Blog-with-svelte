@@ -2,23 +2,21 @@
   import Typewriter from 'svelte-typewriter'
   import { onMount } from 'svelte';
   import { loadGoogleFont} from '../../JsPlugin/loadGoogleFont';
+  import { itheme } from '../../JsPlugin/ThemeSwitching'
 
 
   onMount(() => {
     loadGoogleFont();
   });
   
-    let mode ="&quot; turn on the light &quot;"
-  
-    //Iterm
-  
-   
-  </script>
+  // onMount
+
+</script>
   
   
   <!--                               -----TEXBAR-----                                         -->
-  
-  <div class="container w-10/12 h-4/6 mx-auto  pt-10  overflow-hidden ">
+<div data-theme="{$itheme ? "dark" : "light"}" class=" h-screen w-screen">
+  <div class="container w-10/12 h-screen mx-auto  pt-6  overflow-hidden ">
       
     <Typewriter>
       
@@ -28,6 +26,7 @@
         
     </Typewriter>
   </div>
+</div>
   
   
   
