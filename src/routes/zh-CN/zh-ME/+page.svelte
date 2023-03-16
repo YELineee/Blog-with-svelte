@@ -48,8 +48,16 @@
     }
   
     :global(body) {
-      font-family: 'Courgette', cursive;
-    }
+    font-family: 'Courgette','Open Sans', serif;
+  }
+    @font-face {
+          font-family: 'Open Sans';
+          font-style: normal;
+          font-weight: 400;
+          src: url('%sveltekit.assets%/SmileySans-Oblique.otf.woff2') format('woff2');
+      }
+
+  
   
     /* font */
   </style>

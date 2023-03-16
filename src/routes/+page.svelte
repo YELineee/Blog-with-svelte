@@ -87,7 +87,7 @@
   }
 
   :global(body) {
-    font-family: 'Courgette', cursive;
+    font-family: 'Courgette', serif;
   }
 
 </style>
