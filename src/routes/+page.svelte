@@ -62,7 +62,7 @@
           for you? Or Switch to 
           <a href="./zh-CN" class="link link-hover text-amber-400"> Chinese </a>?
         </p>
-      <p   class="font-dynamic-p-text "></p>
+        <p  class="font-dynamic-p-text  font-medium ml-8 mt-10 overflow-clip"> &nbsp; &nbsp; More and more <a href="./404" class="link link-hover text-purple-400">"features"</a> come in the future</p>
         
       </Typewriter>
 
