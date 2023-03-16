@@ -19,19 +19,9 @@
 <div data-theme="{$itheme ? "dark" : "light"}" class=" h-screen w-screen">
   <div class="container w-10/12 h-screen mx-auto  pt-6  overflow-hidden ">
     <Typewriter>
-    
-        <p class=" font-dynamic-p-titl  font-black  "> 
-            
-            <a class="link link-hover line-through text-yellow-400">
-                
-                Notes
-
-            </a>
-        
-        </p>  
-        
-        <p  class="font-dynamic-p-text  font-medium ml-8 mt-8 overflow-clip ">&nbsp; &nbsp;This is my first blog site and the concept is simple, there is nothing central to the whole site, as well as no iconic buttons and not a clear timeline. Just like <a href="../" class="link link-hover text-yellow-400">myself</a>, I like things to be pure.</p>
-        <p  class="font-dynamic-p-text  font-medium ml-8 mt-8 overflow-clip ">&nbsp; &nbsp;It perhaps the first time I have been alone to write a <a href="https://github.com/YELineee/Blog" class="link link-hover text-red-400">project</a> that has been in my mind a million times, but today I started to produce it.</p>
+      <p  class=" font-dynamic-p-titl  font-black  "> <a href="../zh-CN" class="link link-hover  text-yellow-400">Note</a></p>  
+      <p  class="font-dynamic-p-text  font-medium ml-8 mt-8 overflow-clip ">&nbsp; &nbsp;这是我的第一次独立的写一个blog，我的想法很简单，去中心化，去图表化，去时间化。就像是<a href="../" class="link link-hover text-violet-400">“ 我 ”</a>一样，喜欢纯粹的东西</p>
+      <p  class="font-dynamic-p-text  font-medium ml-8 mt-8 overflow-clip ">&nbsp; &nbsp;这个<a href="https://github.com/YELineee/Blog" class="link link-hover text-red-400">“ 项目 ”</a>是我第一次一个人去尝试的，而且已经在我的脑海里纯在有很长的一段时间了</p>
     </Typewriter>
   </div>
 </div>
