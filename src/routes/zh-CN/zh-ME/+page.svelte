@@ -17,9 +17,9 @@
     <!--                               -----TEXBAR-----                                         -->
   
   
-  <div data-theme="{$itheme ? "dark" : "light"}" class=" h-screen w-screen">
-    <div class="container w-10/12 h-screen mx-auto  pt-6  overflow-hidden ">
-        
+    <div data-theme="{$itheme ? "dark" : "light"}" class=" w-screen h-screen  ">
+      <div data-theme="{$itheme ? "dark" : "light"}" >
+        <div class="container w-10/12  mx-auto  pt-6  overflow-hidden ">
       <div >
         <Typewriter>
           <p  class=" font-dynamic-p-titl  font-black  "> <a href="../" class="link link-hover  text-yellow-400">Me, Myslef & I</a></p>  
@@ -29,8 +29,8 @@
       </div>
     
     </div>
-  </div>
-    
+    </div>
+    </div>
   
     <!--                               -----TEXBAR-----                                         -->
       
