@@ -45,25 +45,40 @@
             <td>2023.03.15</td>
           </tr>
           <!-- row 2 -->
-          <tr class="hover">
+          <tr >
             <th>2</th>
             <td>Diary</td>
-            <td>hardworl</td>
+            <td>hardwork</td>
             <td>2023.03.15</td>
           </tr>
           <!-- row 3 -->
-          <tr>
+          <tr class="line-through">
             <th>3</th>
             <td>iterm color</td>
             <td>Change the theme colour with the button</td>
             <td>2023.03.15</td>
           </tr>
+          <!-- row 4 -->
           <tr>
             <th>4</th>
             <td>MD</td>
             <td>Support for md text</td>
             <td>2023.03.15</td>
           </tr>  
+          <!-- row 5 -->
+          <tr>
+            <th>5</th>
+            <td>Integration</td>
+            <td>Integration of ChatGPT-4 api</td>
+            <td>2023.03.17</td>
+          </tr>  
+          <!-- row 6 -->
+          <tr>
+          <th>6</th>
+          <td>Dynamic colors</td>
+          <td>Refresh color every time you open the page</td>
+          <td>2023.03.17</td>
+        </tr>  
         </tbody>
       </table>
     </div>
