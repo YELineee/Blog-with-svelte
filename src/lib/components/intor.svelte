@@ -47,7 +47,7 @@
 					id="YE">YEL!ne</a
 				>
 			</p>
-			<div class="w-full mt-72">
+			<div class="w-full mt-72 md:mt-60">
 				<div style:transform={`translate3d(${scroll < 400 ? 0 : (scroll - 400) * 0.5}px, 0,0)`}>
 					<div id="title" class=" text-right mr-16">
 						<p class="font-p-first font-thin text-white">YELine</p>
