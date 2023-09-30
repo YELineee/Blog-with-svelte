@@ -3,4 +3,4 @@
 	import Gallery from '../lib/components/gallery.svelte';
 </script>
 
-<Intor />
+<Gallery />
