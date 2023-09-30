@@ -10,13 +10,13 @@
 	</script>
 {/if}
 
-<h1 id="sd" class="text-2xl" style="position: fixed;z-index: 10;">{scroll}</h1>
+<!-- <h1 id="sd" class="text-2xl" style="position: fixed;z-index: 10;">{scroll}</h1> -->
 <div class="h-screen bg-neutral-900 relative overflow-hidden" >
 	<div class="w-10/12 left-0 top-0 -z-10">
 		<div class="relative" style="left: 15%;">
 			<div  style:transform={`translate3d(${scroll < 1000 && scroll > 100 ? (scroll-100) * 0.5 : 0}px, ${scroll < 1000 && scroll > 100 ? (scroll-100) * 1 :0}px, 0)`}>
 				<img
-				src="src/lib/images/IMG_4995.webp"
+				src="./images/IMG_4995.webp"
 				alt=""
 				class="absolute top-0 z-10 w-80 md:w-[30rem] "
 				style="left: 25%;"
@@ -25,7 +25,7 @@
 			</div>
 			<div style:transform={`translate3d(${scroll < 50 ? 0 :(scroll-50) * -0.5}px, 0,0)`}>
 				<img
-				src="src/lib/images/IMG_499.webp"
+				src="./images/IMG_499.webp"
 				alt=""
 				class="absolute top-20 z-20 w-80 md:w-[30rem]"
 				id="picture_2"
