@@ -9,11 +9,10 @@
 	</div>
 
 	<div class="mockup-code mx-6 md:mx-24 my-4">
-		<pre data-prefix="1"><code>npm i Gallery</code></pre> 
-		<pre data-prefix="2"><code>installing...</code></pre> 
+		<pre data-prefix="1"><code>npm i Gallery</code></pre>
+		<pre data-prefix="2"><code>installing...</code></pre>
 		<pre data-prefix="3" class="bg-warning text-warning-content"><code>Coming soon!</code></pre>
-	  </div>
-
+	</div>
 
 	<div class="container h-auto md:h-[100rem] p-5 mx-auto">
 		<div class="card w-[100%] h-auto md:w-[31%]" style="">
