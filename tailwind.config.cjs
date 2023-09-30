@@ -2,17 +2,20 @@
 module.exports = {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
-    textend: {},
+    textend: {
+      spacing: {
+        '128': '32rem',
+      }
+    },
   },
   plugins: [require("daisyui")],
   daisyui: {
     styled: true,
-    themes: ["dark","cupcake","light",],
+    themes: ["light",],
     base: true,
     utils: true,
     logs: true,
     rtl: false,
     prefix: "",
-    darkTheme: "dark",
   },
 }
