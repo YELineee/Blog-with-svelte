@@ -37,7 +37,7 @@
 
 	.font-dynamic-p-titl {
 		font-size: 10vw;
-		font-family: 'Courgette', serif;
+		font-family: 'Michroma', serif;
 	}
 
 	.container {
