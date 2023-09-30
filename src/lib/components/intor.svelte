@@ -50,7 +50,7 @@
 				</div>
 				<div style:transform={`translate3d(${scroll < 600 ? 0 :(scroll-600) * 0.5}px, 0,0)`}>
 					<div class="mt-10" id="intor" >
-						<p class="font-p-text font-bold overflow-clip text-left text-white w-2/3 ml-auto mr-10 text-2xl md:mr-20">
+						<p class="font-p-text font-bold overflow-clip text-left text-white w-2/3 ml-auto mr-10 text-base md:mr-20 md:text-2xl ">
 							&nbsp; &nbsp; Everyone thought I was a bit " Out To Lunch ". He has left some " Notes
 							", I suppose I'm just your average pessimistic teenager who's not really adept at introducing myself. Most of the time, I get by with coding and playing games to ‘proactive’ through each day.😇GL&HF😇
 						</p>
@@ -74,7 +74,6 @@
 	}
 
 	.font-p-text {
-		font-size: 18px;
 		font-family: 'Michroma', serif;
 	}
 	
