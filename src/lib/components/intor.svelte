@@ -4,12 +4,6 @@
 
 <svelte:window bind:scrollY={scroll} />
 
-{#if scroll > 100}
-	<script>
-		picture_1 = 'left: 15%;';
-	</script>
-{/if}
-
 <!-- <h1 id="sd" class="text-2xl" style="position: fixed;z-index: 10;">{scroll}</h1> -->
 <div class="h-screen bg-neutral-900 relative overflow-hidden">
 	<div class="w-10/12 left-0 top-0 -z-10">
@@ -48,17 +42,17 @@
 				>
 			</p>
 			<div class="w-full mt-72 md:mt-60">
-				<div style:transform={`translate3d(${scroll < 400 ? 0 : (scroll - 400) * 0.5}px, 0,0)`}>
+				<div style:transform={`translate3d(${scroll < 300 ? 0 : (scroll - 300) * 0.5}px, 0,0)`}>
 					<div id="title" class=" text-right mr-16">
 						<p class="font-p-first font-thin text-white">YELine</p>
 					</div>
 				</div>
-				<div style:transform={`translate3d(${scroll < 600 ? 0 : (scroll - 600) * 0.5}px, 0,0)`}>
+				<div style:transform={`translate3d(${scroll < 400 ? 0 : (scroll - 400) * 0.5}px, 0,0)`}>
 					<div class="mt-10" id="intor">
 						<p
 							class="font-p-text font-bold overflow-clip text-left text-white w-2/3 ml-auto mr-10 text-base md:mr-20 md:text-2xl"
 						>
-							&nbsp; &nbsp; Everyone thought I was a bit " Out To Lunch ". I suppose I'm just your
+							&nbsp; &nbsp; Everyone thought I was a bit " Out To Lunch ". I suppose I'm just a
 							average pessimistic teenager who's not really adept at introducing myself. Most of the
 							time, I get by with coding and playing games to ‘proactive’ through each day.😇GL&HF😇
 						</p>

@@ -14,7 +14,7 @@
 		<pre data-prefix="3" class="bg-warning text-warning-content"><code>Coming soon!</code></pre>
 	</div>
 
-	<div class="container h-auto md:h-[100rem] p-5 mx-auto">
+	<div class="container h-auto md:h-[150rem] p-5 mx-auto md:px-24">
 		<div class="card w-[100%] h-auto md:w-[31%]" style="">
 			<img src="./images/IMG_499.webp" alt="" style="border-radius: 10px;" />
 		</div>
