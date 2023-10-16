@@ -6,7 +6,7 @@
 
 <svelte:window bind:scrollY={scroll} bind:innerHeight={SCREEN} />
 
-<div class="flex flex-col h-screen bg-red-500 overflow-clip border-dashed  border-2 md:border-4 border-stone-50">
+<div class="flex flex-col h-screen bg-red-600 overflow-clip border-dashed  border-2 md:border-4 border-stone-50">
 	<div class="relative h-screen">
 		<div
 			class="absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center text-center"
@@ -17,7 +17,7 @@
 				style:transform={` translate3d(${scroll < screen  ? -(screen - scroll) * 0.07 : (screen*1 - scroll) * 0.02 }px,${scroll < screen ? 0 : -(screen - scroll) * 0.5}px, 0)`}
                 style:opacity={`${scroll < screen*1.2 ? (scroll * 2 - screen)* 0.003: (screen*2.2 - scroll)* 0.001}`}
 			>
-				| - I've got a record player that was made in 2014 - |
+				| - "The Lord is my shepherd." - Psalm 23:1 - |
 			</p>
 			<img
 				src="./images/IMG_5000.webp"
@@ -33,7 +33,7 @@
                 style:transform={` translate3d(${scroll < screen ? (screen - scroll) * 0.07 : -(screen*1 - scroll) * 0.02 }px,${scroll < screen ? 0 : -(screen - scroll) * 0.5}px, 0)`}
                 style:opacity={`${scroll < screen*1.2 ? (scroll * 2 - screen)* 0.003: (screen*2.2 - scroll)* 0.001}`}
 			>
-				| - I've got a record player that was made in 2014 - |
+				| - "The Lord is my shepherd." - Psalm 23:1 - |
 			</p>
 		</div>
 
@@ -43,7 +43,7 @@
 			<a
 				href="/gallery"
 				class=" mix-blend-difference text-white font-bold text-[20vw]"
-				style:transform={` translate3d(${scroll < screen ? (screen - scroll) * 0.8 : 0}ax,0, 0)`}
+				style:transform={` translate3d(${scroll < screen ? (screen  - scroll) * 0.5 : 0}px,0, 0)`}
 			>
 				GALLery
 			</a>

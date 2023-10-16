@@ -12,12 +12,12 @@
 			class="absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center text-center"
 		>
 			<p
-				class="text-l md:text-3xl absolute left-1 md:left-10 text-black z-10 rotate-180"
-				style="writing-mode :vertical-rl ;"
+				class="text-l md:text-3xl absolute left-1 md:left-10 text-black z-10 rotate-180 "
+				style="writing-mode :vertical-lr ;"
 				style:transform={` translate3d(${scroll < screen  ? -(screen - scroll) * 0.07 : (screen*1 - scroll) * 0.02 }px,${scroll < screen ? 0 : -(screen - scroll) * 0.5}px, 0)`}
                 style:opacity={`${scroll < screen*1.2 ? (scroll * 2 - screen)* 0.003: (screen*2.2 - scroll)* 0.001}`}
 			>
-				| - I've got a record player that was made in 2014 - |
+				| - Who would you die for? Who would you lie for, lie for? - |
 			</p>
 			<img
 				src="./images/IMG_4999.webp"
@@ -33,7 +33,7 @@
                 style:transform={` translate3d(${scroll < screen ? (screen - scroll) * 0.07 : -(screen*1 - scroll) * 0.02 }px,${scroll < screen ? 0 : -(screen - scroll) * 0.5}px, 0)`}
                 style:opacity={`${scroll < screen*1.2 ? (scroll * 2 - screen)* 0.003: (screen*2.2 - scroll)* 0.001}`}
 			>
-				| - I've got a record player that was made in 2014 - |
+				| - Who would you die for? Who would you lie for, lie for? - |
 			</p>
 		</div>
 

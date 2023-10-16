@@ -4,11 +4,13 @@
     import Footer from '$lib/components/footer.svelte';
     import Home_1 from '$lib/components/home/home_p1.svelte';
     import Home_2 from '$lib/components/home/home_p2.svelte';
+    import Home_3 from '$lib/components/home/home_p3.svelte';
 </script>
 
 <!-- <h1 id="sd" class="text-2xl text-cyan-300" style="position: fixed;z-index: 10;">{scroll}</h1> -->
 <Intor  />
 <Home_1/>
 <Home_2/>
+<Home_3/>
 <!-- <Gallery /> -->
 <Footer />
