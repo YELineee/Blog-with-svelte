@@ -22,7 +22,7 @@
 			<img
 				src="./images/IMG_4999.webp"
 				alt=""
-				class="w-5/6 md:w-2/3 h-auto object-center p-2 md:p-10 border-solid border-2 md:border-4 "
+				class="w-5/6 md:w-1/2 h-auto object-center p-2 md:p-10 border-solid border-2 md:border-4 "
 				style:transform={` translate3d(${scroll < screen ? -(screen - scroll) * 0.5 : 0}px,${
 					scroll < screen ? (screen - scroll) * 0.8 : 0
 				}px, 0)`}
