@@ -1,11 +1,7 @@
 <script>
 	import Note from "./note.svelte";
-	let scroll = 0;
 </script>
 
-<svelte:window bind:scrollY={scroll} />
-
-<!-- <h1 id="sd" class="text-2xl" style="position: fixed;z-index: 10;">{scroll}</h1> -->
 
 <div class="h-screen bg-gray-200 relative overflow-hidden">
 
@@ -14,20 +10,20 @@
 			<p class="font-p-titl">
 				<a
 					href="/"
-					class="link link-hover line-through font-thin text-black pl-8"
-					id="YE">BAck</a
+					class="link link-hover line-through font-thin text-black pl-8  text-s md:text-[24px]"
+					>BAck</a
 				>
 			</p>
 			<div class="w-full">
-				<div style:transform={`translate3d(${scroll < 300 ? 0 : (scroll - 300) * 0.5}px, 0,0)`}>
-					<div id="title" class=" text-left ml-16 pt-10 pl-10">
-						<p class="font-p-first font-thin text-black">YAKety-Yak</p>
+				
+					<div id="title" class=" text-left ml-1 md:ml-16 pt-8 md:pt-16 pl-10">
+						<p class="font-p-first text-3xl md:text-[4vw] font-thin text-black">YAKety-Yak</p>
 					</div>
-				</div>
-				<div style:transform={`translate3d(${scroll < 400 ? 0 : (scroll - 400) * 0.5}px, 0,0)`}>
-					<div class=" px-8 md:px-40 py-10 h-[80vh] " >
+				
+				
+					<div class=" px-8 md:px-40 py-4 md:py-16 h-[80vh] " >
 						<Note/>
-					</div>
+					
 				</div>
 			</div>
 		</div>
@@ -36,12 +32,11 @@
 
 <style>
 	.font-p-titl {
-		font-size: 25px;
 		font-family: 'Michroma', serif;
 	}
 
 	.font-p-first {
-		font-size: 4vw;
+		
 		font-family: 'Michroma', serif;
 	}
 

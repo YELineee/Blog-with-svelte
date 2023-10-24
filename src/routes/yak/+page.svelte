@@ -1,13 +1,9 @@
 <script>
-	import Introduce from "$lib/components/yak/introduce.svelte";
+	import Introduce from '$lib/components/yak/introduce.svelte';
 </script>
 
-<style>
-
-</style>
-  
 <div class="h-screen bg-blue-900">
-	<Introduce/>
+	<Introduce />
 </div>
 
 <div class=" h-72 bg-green-500"></div>
@@ -16,5 +12,5 @@
 <div class=" h-72 bg-green-200"></div>
 <div class=" h-72 bg-green-100"></div>
 
-
-
+<style>
+</style>

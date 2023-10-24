@@ -52,9 +52,9 @@
 						<p
 							class="font-p-text font-bold overflow-clip text-left text-white w-2/3 ml-auto mr-10 text-base md:mr-20 md:text-2xl"
 						>
-							&nbsp; &nbsp; Everyone thought I was a bit 'out to lunch.' 
-							I suppose I'm just an average, pessimistic teenager who's not really adept at introducing myself. 
-							Most of the time, I pass the time by coding and playing games to get through each day.😇GL&HF😇
+							&nbsp; &nbsp; Everyone thought I was a bit " Out To Lunch ". I suppose I'm just a
+							average pessimistic teenager who's not really adept at introducing myself. Most of the
+							time, I get by with coding and playing games to ‘proactive’ through each day.😇GL&HF😇
 						</p>
 					</div>
 				</div>

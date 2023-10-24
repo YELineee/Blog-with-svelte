@@ -41,7 +41,7 @@
 			class="absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center text-center overflow-clip"
 		>
 			<a
-				href="/gallery"
+				href="/yak"
 				class="mix-blend-difference text-[#FFE76F] font-bold text-[22vw]"
 				style:transform={` translate3d(${scroll < screen ? (screen - scroll) * 0.8 : 0}px,0, 0)`}
 			>

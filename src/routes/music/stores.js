@@ -14,7 +14,7 @@ export const trackList = writable([
 	{
 		title: 'Symphony no. 5 in Cm, Op. 67',
 		artist: 'Ludwig van Beethoven',
-		file: 'https://sveltejs.github.io/assets/music/beethoven.mp3'
+		file: 'https://m801.music.126.net/20231024160054/00096913d5c24d88134d83c2366b7d59/jdyyaac/obj/w5rDlsOJwrLDjj7CmsOj/19288857508/f1b0/f42f/2b26/490684c2d9d9aadf32cd0046cfbc97b1.m4a'
 	}
 ]);
 
