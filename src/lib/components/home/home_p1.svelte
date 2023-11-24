@@ -6,7 +6,7 @@
 
 <svelte:window bind:scrollY={scroll} bind:innerHeight={SCREEN} />
 
-<div class="flex flex-col h-screen bg-[#002EA6] overflow-clip border-dashed border-2 md:border-4 border-stone-50">
+<div class="flex flex-col h-screen bg-[#4343b9] overflow-clip border-dashed border-2 md:border-4 border-stone-50">
 	<div class="relative h-screen">
 		<div
 			class=" absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center text-center"

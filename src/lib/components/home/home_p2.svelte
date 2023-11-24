@@ -20,7 +20,7 @@
 				| - "The Lord is my shepherd." - Psalm 23:1 - |
 			</p>
 			<img
-				src="./images/IMG_4999.webp"
+				src="./images/IMG_5003.webp"
 				alt=""
 				class="w-5/6 md:w-1/2 h-auto object-center p-2 md:p-10 border-solid border-2 md:border-4 "
 				style:transform={` translate3d(${scroll < screen ? -(screen - scroll) * 0.5 : 0}px,${
