@@ -23,7 +23,11 @@
 			You enjoy creating artworks completed by collage artist and designer 
 			<a href="https://www.flickr.com/photos/93317091@N04/" class="underline decoration-double decoration-2" rel="external"> <span>Alana Questell.  </span></a>
 			<img class="w-6 md:w-24" src="http://p1.music.126.net/ePxGsaD1700arVmXIPQV5w==/109951164859334262.jpg" alt="story thumbnail" />
-		</span>
+			</span>
+
+			<span>
+				GL&&HF,my friend.
+			</span>
 		</p>
 	</div>
 </div>
