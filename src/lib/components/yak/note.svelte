@@ -1,5 +1,5 @@
 <div>
-	<div class="leading-relaxed md:leading-loose font-thin text-xl md:text-5xl text-black tracking-wide">
+	<div class="leading-relaxed md:leading-loose font-thin text-xl md:text-[3vw] text-black tracking-wide">
 		<p>
 			<span
 				>&nbsp &nbsp  &nbsp  &nbsp is a place where I can record my thoughts anytime and anywhere.

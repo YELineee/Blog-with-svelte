@@ -15,40 +15,40 @@
 	</div>
 
 	<div class="container h-auto md:h-[150rem] p-5 mx-auto md:px-24">
-		<div class="card w-[100%] h-auto md:w-[31%]" style="">
+		<div class="card w-[100%] h-auto md:w-[31%] md:mb-4 mb-5" style="">
 			<img src="./images/IMG_499.webp" alt="" style="border-radius: 10px;" />
 		</div>
-		<div class="card w-[100%] h-auto md:w-[31%]" style="">
+		<div class="card w-[100%] h-auto md:w-[31%] md:mb-4 mb-5"  style="">
 			<img src="./images/IMG_4996.webp" alt="" style="border-radius: 10px;" />
 		</div>
-		<div class="card w-[100%] h-auto md:w-[31%]" style="">
+		<div class="card w-[100%] h-auto md:w-[31%] md:mb-4 mb-5"  style="">
 			<img src="./images/IMG_4998.webp" alt="" style="border-radius: 10px;" />
 		</div>
-		<div class="card w-[100%] h-auto md:w-[31%]" style="">
+		<div class="card w-[100%] h-auto md:w-[31%] md:mb-4 mb-5"  style="">
 			<img src="./images/IMG_4995.webp" alt="" style="border-radius: 10px;" />
 		</div>
-		<div class="card w-[100%] h-auto md:w-[31%]" style="">
+		<div class="card w-[100%] h-auto md:w-[31%] md:mb-4 mb-5"  style="">
 			<img src="./images/IMG_499.webp" alt="" style="border-radius: 10px;" />
 		</div>
-		<div class="card w-[100%] h-auto md:w-[31%]" style="">
+		<div class="card w-[100%] h-auto md:w-[31%] md:mb-4 mb-5"  style="">
 			<img src="./images/IMG_4996.webp" alt="" style="border-radius: 10px;" />
 		</div>
-		<div class="card w-[100%] h-auto md:w-[31%]" style="">
+		<div class="card w-[100%] h-auto md:w-[31%] md:mb-4 mb-5"  style="">
 			<img src="./images/IMG_4998.webp" alt="" style="border-radius: 10px;" />
 		</div>
-		<div class="card w-[100%] h-auto md:w-[31%]" style="">
+		<div class="card w-[100%] h-auto md:w-[31%] md:mb-4 mb-5"  style="">
 			<img src="./images/IMG_4995.webp" alt="" style="border-radius: 10px;" />
 		</div>
-		<div class="card w-[100%] h-auto md:w-[31%]" style="">
+		<div class="card w-[100%] h-auto md:w-[31%] md:mb-4 mb-5"  style="">
 			<img src="./images/IMG_499.webp" alt="" style="border-radius: 10px;" />
 		</div>
-		<div class="card w-[100%] h-auto md:w-[31%]" style="">
+		<div class="card w-[100%] h-auto md:w-[31%] md:mb-4 mb-5"  style="">
 			<img src="./images/IMG_4996.webp" alt="" style="border-radius: 10px;" />
 		</div>
-		<div class="card w-[100%] h-auto md:w-[31%]" style="">
+		<div class="card w-[100%] h-auto md:w-[31%] md:mb-4 mb-5"  style="">
 			<img src="./images/IMG_4998.webp" alt="" style="border-radius: 10px;" />
 		</div>
-		<div class="card w-[100%] h-auto md:w-[31%]" style="">
+		<div class="card w-[100%] h-auto md:w-[31%] md:mb-4 mb-5"  style="">
 			<img src="./images/IMG_4995.webp" alt="" style="border-radius: 10px;" />
 		</div>
 	</div>
@@ -68,7 +68,6 @@
 
 	.card {
 		position: relative;
-		margin-bottom: 2%;
 		border-radius: 10px;
 		background-color: rgba(255, 255, 255, 0.1);
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
