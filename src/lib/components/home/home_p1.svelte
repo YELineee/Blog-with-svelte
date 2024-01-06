@@ -6,7 +6,9 @@
 
 <svelte:window bind:scrollY={scroll} bind:innerHeight={SCREEN} />
 
-<div class="flex flex-col h-screen bg-[#4343b9] overflow-clip border-dashed border-2 md:border-4 border-stone-50">
+<div
+	class="flex flex-col h-screen bg-[#4343b9] overflow-clip border-dashed border-2 md:border-4 border-stone-50"
+>
 	<div class="relative h-screen">
 		<div
 			class=" absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center text-center"
@@ -14,8 +16,12 @@
 			<p
 				class="text-l md:text-3xl absolute left-1 md:left-10 text-[#FFE76F] z-10"
 				style="writing-mode :vertical-lr ;"
-				style:transform={` translate3d(${scroll < screen  ? -(screen - scroll) * 0.07 : (screen*1 - scroll) * 0.02 }px,${scroll < screen ? 0 : -(screen - scroll) * 0.5}px, 0) rotate(180deg)`}
-                style:opacity={`${scroll < screen*1.2 ? (scroll * 2 - screen)* 0.003: (screen*2.2 - scroll)* 0.001}`}
+				style:transform={` translate3d(${
+					scroll < screen ? -(screen - scroll) * 0.07 : (screen * 1 - scroll) * 0.02
+				}px,${scroll < screen ? 0 : -(screen - scroll) * 0.5}px, 0) rotate(180deg)`}
+				style:opacity={`${
+					scroll < screen * 1.2 ? (scroll * 2 - screen) * 0.003 : (screen * 2.2 - scroll) * 0.001
+				}`}
 			>
 				| | - Who would you die for? Who would you lie for, lie for? - | |
 			</p>
@@ -30,8 +36,12 @@
 			<p
 				class="text-l md:text-3xl absolute right-1 md:right-10 text-[#FFE76F] z-10"
 				style="writing-mode :vertical-rl"
-                style:transform={`translate3d(${scroll < screen ? (screen - scroll) * 0.07 : -(screen*1 - scroll) * 0.02}px,${scroll < screen ? 0 : -(screen - scroll) * 0.5}px, 0)`}
-                style:opacity={`${scroll < screen*1.2 ? (scroll * 2 - screen)* 0.003: (screen*2.2 - scroll)* 0.001}`}
+				style:transform={`translate3d(${
+					scroll < screen ? (screen - scroll) * 0.07 : -(screen * 1 - scroll) * 0.02
+				}px,${scroll < screen ? 0 : -(screen - scroll) * 0.5}px, 0)`}
+				style:opacity={`${
+					scroll < screen * 1.2 ? (scroll * 2 - screen) * 0.003 : (screen * 2.2 - scroll) * 0.001
+				}`}
 			>
 				| - Who would you die for? Who would you lie for, lie for? - |
 			</p>
@@ -52,5 +62,4 @@
 </div>
 
 <style>
-
 </style>
